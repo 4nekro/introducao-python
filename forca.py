@@ -108,7 +108,7 @@ def jogar(): #função para mostrar o jogo
         print("Você ganhou!")
     else:
         print("Você perdeu :(, a palavra era {}".format(palavra_secreta.lower()))
-    print("Fim do jogo")
+    print("Fim do jogo, aperte enter para sair")
 
 if(__name__ == "__main__"): #Executar o jogo diretamente
     jogar()
